@@ -34,7 +34,29 @@ public class Student {
 
     private String name;
     
+        private String PartTime;
+
+    /**
+     * Get the value of PartTime
+     *
+     * @return the value of PartTime
+     */
+    public String getPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * Set the value of PartTime
+     *
+     * @param PartTime new value of PartTime
+     */
+    public void setPartTime(String PartTime) {
+        this.PartTime = PartTime;
+    }
+
     private String Phone;
+    
+    
 
     /**
      * Get the value of Phone
